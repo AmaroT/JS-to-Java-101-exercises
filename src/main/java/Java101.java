@@ -164,6 +164,80 @@ public class Java101 {
 //        }
 //    }
 
+    //Exercise 16
+    //Write a Java program that is able to return a user input and SOUT the input
+//    public static void main(String[] args) {
+//        int num;
+//        float fnum;
+//        String str;
+//        Scanner in = new Scanner(System.in);
+//        //String input
+//        System.out.println("Enter a string: ");
+//        str = in.nextLine();
+//        System.out.println("Input String is: " +str);
+//        //Integer input
+//        num = in.nextInt();
+//        System.out.println("Input integer is : " + num);
+//        //Float Number
+//        System.out.println("Enter a float number: ");
+//        fnum = in.nextFloat();
+//        System.out.println("Input Float number is: " +fnum);
+//    }
+    //Exercise 17:
+    //Write a Java program that takes in a number and checks it if is a postive and an odd number
+//    public static void main(String[] args) {
+//        int num;
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("Enter an integer: ");
+//        num = scan.nextInt();
+//        scan.close();
+//        if(num > 0 && num % 2 != 0){
+//            System.out.println("The Integer you have entered is a positive and an odd number");
+//        }
+//    }
+
+    //Exercise 18:
+    //Write a Java program that takes in a number and checks if it is a positive and even
+//    public static void main(String[] args) {
+//        int num;
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("Enter an integer: ");
+//        num = scan.nextInt();
+//        scan.close();
+//        if(num > 0 && num % 2 == 0){
+//            System.out.println("The integer you have entered is a positive and is even");
+//        }else{
+//            System.out.println("not a positive and an even number");
+//        }
+//    }
+    //Exercise 19:
+    //Write a Java Program that checks the input to see if the number is a negative and it is odd
+//    public static void main(String[] args) {
+//        int num;
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("Enter an integer: ");
+//        num = scan.nextInt();
+//        scan.close();
+//        if(num < 0 && num != 0){
+//            System.out.println("The input is a negative and and odd number");
+//        } else{
+//            System.out.println(" The input is not a negative and not a odd number");
+//        }
+//    }
+    //Exercise 20
+    //Write a Java Program that checks the user input is a negative and even
+//    public static void main(String[] args) {
+//        int num;
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("Enter a number: ");
+//        num = scan.nextInt();
+//        scan.close();
+//        if(num < 0 && num % 2 == 0){
+//            System.out.println("The integer is a negative and is even");
+//        } else{
+//            System.out.println("The integer is not a negative and not even");
+//        }
+//    }
 }
 
 
