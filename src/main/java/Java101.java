@@ -1,8 +1,6 @@
 package main.java;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.Scanner;
 
 public class Java101 {
 //    public static void main(String[] args) {
@@ -102,11 +100,71 @@ public class Java101 {
 //        fruits.addAll(vegetables); //Merging both lists
 //        System.out.println(fruits);
 //    }
+    //Exercise 11:
+    //Write a function definiton for a function named addOne that takes in a number and returns that number plus one
 
-
-
-
+    public static int sum(int a, int b) {
+        return a + b;
     }
+    //Exercise 12
+    //Write a function definition name isPositive that takes in a number and returns true or false if that number is positive
+//    public static void main(String[]args){
+//       int number = 100;
+//       if(number > 0){
+//           System.out.println(number + " is a positive number.");
+//       } else if (number < 0){
+//           System.out.println(number + " is a negative number.");
+//       } else {
+//           System.out.println(number + " is neither positive or negative");
+//       }
+//    }
+    //Exercise 13
+    //Write a function definition that takes in a number and returns true or False if that number is negative
+
+//    public static void main(String[] args) {
+//        int number = -100;
+//        if(number > 0){
+//            System.out.println(number + " is a positive number");
+//        } else if(number < 0) {
+//            System.out.println(number + " is a negative number");
+//        } else{
+//            System.out.println(number + " is neither a negative or a positive number");
+//        }
+//    }
+
+    //Exercise 14:
+    // Write a function definition named isOdd that takes in a number and true or false if that number is odd
+
+//    public static void main(String[] args) {
+//        int num;
+//        System.out.println("Enter an Integer number: ");
+//        //Input by user
+//        Scanner input = new Scanner(System.in);
+//        num = input.nextInt();
+//        //If number is divisible by 2 then it's an even number, else odd number
+//        if(num % 2 == 0){
+//            System.out.println("The number you have entered is even");
+//        } else {
+//            System.out.println("The number you have entered is odd");
+//        }
+//    }
+
+    //Exercise 15
+    //Write a program to check if the number entered is odd
+//    public static void main(String[] args) {
+//        int num;
+//        System.out.println("Enter an Integer number: ");
+//        Scanner input = new Scanner(System.in);
+//        num = input.nextInt();
+//        // If number is divisible by 1 then it's an odd number, else even
+//        if(num % 2 != 0){
+//            System.out.println("The number you've entered is odd");
+//        } else {
+//            System.out.println("The number you've entered is even");
+//        }
+//    }
+
+}
 
 
 
