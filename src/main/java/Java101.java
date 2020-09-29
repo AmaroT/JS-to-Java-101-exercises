@@ -1,7 +1,5 @@
 package main.java;
 
-import java.util.Scanner;
-
 public class Java101 {
 //    public static void main(String[] args) {
 //        System.out.println("Hello, world");
@@ -285,27 +283,35 @@ public class Java101 {
 //        }
 //    }
     //Fizzbuzz 3
-    public static void main(String[] args) {
-        int n = 100;
-        //loop for 100 times
-        for(int i = 1; i <= n;i++){
-            //if divisible by 15
-            if(i % 15 == 0){
-                System.out.println("FizzBuzz");
+//    public static void main(String[] args) {
+//        int n = 100;
+//        //loop for 100 times
+//        for(int i = 1; i <= n;i++){
+//            //if divisible by 15
+//            if(i % 15 == 0){
+//                System.out.println("FizzBuzz");
+//
+//                //If divisible by 3
+//            } else if(i % 3 == 0){
+//                System.out.println("Fizz");
+//
+//                // if divisible by 5
+//            } else if(i % 5 == 0){
+//                System.out.println("Buzz");
+//            } else{
+//                System.out.println(i);
+//            }
+//
+//        }
+//    }
+//    public boolean isPalindrone(String input){
+//        String putni = "";
+//        for(int i = input.length() -1; i >= 0;i--){
+//            putni += input.charAt(i);
+//        }
+//        return input.equals(putni);
+//    }
 
-                //If divisible by 3
-            } else if(i % 3 == 0){
-                System.out.println("Fizz");
-
-                // if divisible by 5
-            } else if(i % 5 == 0){
-                System.out.println("Buzz");
-            } else{
-                System.out.println(i);
-            }
-
-        }
-    }
 
 }
 
